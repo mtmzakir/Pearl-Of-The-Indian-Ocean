@@ -1,4 +1,4 @@
-<h1 align="center">Pearl Of The Indian Ocean <br> Tourist Website Responsive</h1>
+<h1 align="center">Pearl Of The Indian Ocean <br>Responsive Tourist Website Project by ME</h1>
 
 ### Indroduction 
 <p align="justify"> Create a website that displays Tourist information about Sri Lanka. This must contain all the well- known tourist places. It can be named “Pearl of the Indian Ocean” and it should contain an appropriate theme. Users could be able to browse Province/District wise information as well; it would be appreciated if you add other details like general information of SL and contact details of the service providers, etc.</p>
