@@ -53,11 +53,16 @@ solution provider also.
 
 ### Used Web Technologies and examples
   I have used only front-end web technologies like,
-    - HTML                        
-    - CSS                 - VueJS Framework
-    ▪ JavaScript                  ▪ JQuery              ▪ CDN for JavaScript, VueJS, CSS
-    ▪ Google Chrome Browser       ▪ Atom Code Editor    ▪ Microsoft Visual Studio Code
-    ▪ Video Editing Softwares
+- HTML                        
+- CSS                 
+- VueJS Framework
+- JavaScript
+- JQuery
+- CDN for JavaScript, VueJS, CSS
+- Google Chrome Browser     
+- Atom Code Editor    
+- Microsoft Visual Studio Code
+- Video Editing Softwares
   
 ### Test Results
 Home Page:![Screenshot 2022-01-14 044519](https://user-images.githubusercontent.com/90142607/186636537-a3fb0c7e-9c22-42f3-8396-45cb0372ee93.png)
