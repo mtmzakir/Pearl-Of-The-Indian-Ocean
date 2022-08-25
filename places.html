@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Places</title>
+      <link rel="stylesheet" type="text/css" href="places.css">
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"/></script>
+   </head>
+   <body>
+
+     <header>
+        <a href="#"><img class="logo" src="img\logo-main.gif"> </a>
+        <div class="menu-toggle"></div>
+        <nav>
+           <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="places.html" class="active">Browse Places</a></li>
+              <li><a href="todo.html">To-Do List</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="about.html">About us</a></li>
+           </ul>
+        </nav>
+        <div class="clearfix"></div>
+     </header>
+
+     <section class="showcase" id="home">
+        <video src="img\Places.mp4" muted loop autoplay></video>
+    </section>
+      <div class="main">
+         <!--cards -->
+         <div class="card">
+            <div class="image">
+               <img src="img/1.jpg">
+            </div>
+            <div class="title">
+               <h1>Western</h1>
+               <h2>Province</h2>
+            </div>
+            <div class="des">
+               <p>Independence Square</p>
+                <p>Viharamahadevi Park</p>
+                 <p>Colombo National Museum</p>
+                 <p>Gangaramaya Temple</p>
+               <button>Read More...</button>
+            </div>
+         </div>
+         <!--cards -->
+         <div class="card">
+            <div class="image">
+               <img src="img/2.jpeg">
+            </div>
+            <div class="title">
+               <h1>North Western</h1>
+               <h2>Province</h2>
+            </div>
+            <div class="des">
+              <p>Athugala Rock</p>
+               <p>Anawilundawa Bird Sanctuary</p>
+                <p>Kalpitiya Peninsula</p>
+                <p>Ridi Viharaya</p>
+               <button>Read More...</button>
+            </div>
+         </div>
+         <!--cards -->
+         <div class="card">
+            <div class="image">
+               <img src="img/3.jpg">
+            </div>
+            <div class="title">
+               <h1>Uva</h1>
+               <h2>Province</h2>
+            </div>
+            <div class="des">
+              <p>Nine arch bridge</p>
+               <p>Ravana Falls</p>
+                <p>Lipton's Seat</p>
+                <p>Kataragama Temple</p>
+               <button>Read More...</button>
+            </div>
+         </div>
+         <!--cards -->
+         <div class="card">
+            <div class="image">
+               <img src="img/4.jpg">
+            </div>
+            <div class="title">
+               <h1>Sabaragamuwa</h1>
+               <h2>Province</h2>
+            </div>
+            <div class="des">
+              <p>Adam's Peak</p>
+               <p>Pahanthudawa Waterfall</p>
+                <p>Belilena Cave</p>
+                <p>Booth Falls Lake</p>
+               <button>Read More...</button>
+            </div>
+         </div>
+         <!--cards -->
+         <div class="card">
+            <div class="image">
+               <img src="img/5.jpg">
+            </div>
+            <div class="title">
+               <h1>Central</h1>
+               <h2>Province</h2>
+            </div>
+            <div class="des">
+              <p>Sembuwatta Lake</p>
+               <p>Horton Plains</p>
+                <p>Elephant Orphanage</p>
+                <p>Sigiriya Rock</p>
+               <button>Read More...</button>
+            </div>
+         </div>
+         <!--cards -->
+         <div class="card">
+            <div class="image">
+               <img src="img/6.jpg">
+            </div>
+            <div class="title">
+               <h1>Eastern</h1>
+               <h2>Province</h2>
+            </div>
+            <div class="des">
+              <p>Arugam Bay Beach</p>
+               <p>Thiruketheeswaram Kovil</p>
+                <p>Pasikuda Veach</p>
+                <p>Piegon Island</p>
+               <button>Read More...</button>
+            </div>
+         </div>
+         <!--cards -->
+         <div class="card">
+            <div class="image">
+               <img src="img/7.jpg">
+            </div>
+            <div class="title">
+               <h1>Northern</h1>
+               <h2>Province</h2>
+            </div>
+            <div class="des">
+              <p>Casuarina Beach</p>
+               <p>Jaffna Fort</p>
+                <p>Neduntheevu</p>
+                <p>Nallur Temple</p>
+               <button>Read More...</button>
+            </div>
+         </div>
+         <!--cards -->
+         <div class="card">
+            <div class="image">
+               <img src="img/8.jpg">
+            </div>
+            <div class="title">
+               <h1>Southern</h1>
+               <h2>Province</h2>
+            </div>
+            <div class="des">
+              <p>Mirissa Beach</p>
+               <p>Hikkaduwa Beach</p>
+                <p>Tangalle Beach</p>
+                <p>Galle Fort</p>
+               <button>Read More...</button>
+            </div>
+         </div>
+
+      </div>
+
+      <script>
+         $(document).ready(function () {
+           $('.menu-toggle').click(function() {
+             $('.menu-toggle').toggleClass('active')
+               $('nav').toggleClass('active')
+           })
+         })
+      </script>
+   </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <title>Contact Us</title>
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"/></script>
+   </head>
+   <body>
+      <header>
+         <a href="#"><img class="logo" src="img\logo-main.gif"> </a>
+         <div class="menu-toggle"></div>
+         <nav>
+            <ul>
+               <li><a href="home.html">Home</a></li>
+               <li><a href="places.html">Browse Places</a></li>
+               <li><a href="todo.html">To-Do List</a></li>
+               <li><a href="contact.html" class="active">Contact us</a></li>
+               <li><a href="about.html" >About us</a></li>
+            </ul>
+         </nav>
+         <div class="clearfix"></div>
+      </header>
+      <section class="showcase">
+         <video src="img\contact.mp4" muted loop autoplay></video>
+         <div class="overlay"></div>
+         <div class="text">
+            <div class="text">
+               <h2>Conact Us</h2>
+            </div>
+            <form class="form" action="action_page.php">
+               <label for="name">Name</label>
+               <input type="text" id="name" name="name" placeholder="Enter Your name"><br>
+               <label for="email">Email</label>
+               <input type="text" id="email" name="email" placeholder="Enter email"><br>
+               <label for="subjext">Subject</label>
+               <input type="text" id="subject" name="subject" placeholder="Enter Subject"><br>
+               <label for="message">Message</label>
+               <textarea id="subject" name="message" placeholder="Write Something.." style="height:110px"></textarea>
+               <input type="submit" value="Submit">
+            </form>
+         </div>
+         <ul class="social">
+            <li><a target="_blank" href="https://www.facebook.com/mtm.zakir"><img src="img\facebook.png"></a></li>
+            <li><a target="_blank" href="https://twitter.com/i4m_zakir"><img src="img\twitter.png"></a></li>
+            <li><a target="_blank" href="https://instagram.com/i4m_zakir"><img src="img\instagram.png"></a></li>
+         </ul>
+      </section>
+      <script>
+         $(document).ready(function () {
+           $('.menu-toggle').click(function() {
+             $('.menu-toggle').toggleClass('active')
+               $('nav').toggleClass('active')
+           })
+         })
+      </script>
+   </body>
+</html>

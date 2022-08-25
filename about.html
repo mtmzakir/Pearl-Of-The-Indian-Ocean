@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <title>About Us</title>
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"/></script>
+   </head>
+   <body>
+      <header>
+         <a href="#"><img class="logo" src="img\logo-main.gif"> </a>
+         <div class="menu-toggle"></div>
+         <nav>
+            <ul>
+               <li><a href="home.html">Home</a></li>
+               <li><a href="places.html">Browse Places</a></li>
+               <li><a href="todo.html">To-Do List</a></li>
+               <li><a href="contact.html">Contact us</a></li>
+               <li><a href="about.html" class="active">About us</a></li>
+            </ul>
+         </nav>
+         <div class="clearfix"></div>
+      </header>
+      <section class="showcase">
+         <video src="img\about.mp4" muted loop autoplay></video>
+         <div class="overlay"></div>
+         <div class="text">
+            <h2>About us </h2>
+            <p>The Pearl of Indian Ocean is the present and future of destination management in Sri Lanka, where the most exciting tropical holidays happen in South Asia.</p>
+            <p>Founded in 2022, we have built an unwavering reputation for possessing an impressive portfolio for travel even for the most discerning traveler. Our insight and in-depth knowledge of Sri Lanka and its most beautiful and most valued destinations have given us the privilege of trust by our wide and growing clientele from around the world,
+               We bring you friendly relationship between the clients and suppliers to bring you ultimate satisfaction from your Sri Lankan holiday.
+            </p>
+            <p> Created by Zakir M.T.M        | ©2022 all rights reserved </p>
+            <a href="contact.html">Contact US</a>
+         </div>
+         <ul class="social">
+            <li><a target="_blank" href="https://www.facebook.com/mtm.zakir"><img src="img\facebook.png"></a></li>
+            <li><a target="_blank" href="https://twitter.com/i4m_zakir"><img src="img\twitter.png"></a></li>
+            <li><a target="_blank" href="https://instagram.com/i4m_zakir"><img src="img\instagram.png"></a></li>
+         </ul>
+      </section>
+      <script>
+         $(document).ready(function () {
+           $('.menu-toggle').click(function() {
+             $('.menu-toggle').toggleClass('active')
+               $('nav').toggleClass('active')
+           })
+         })
+      </script>
+   </body>
+</html>

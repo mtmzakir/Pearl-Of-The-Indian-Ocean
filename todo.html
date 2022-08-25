@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>To-Do</title>
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="todo.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"/></script>
+   </head>
+   <body>
+      <header>
+         <a href="#"><img class="logo" src="img\logo-main.gif"> </a>
+         <div class="menu-toggle"></div>
+         <nav>
+            <ul>
+               <li><a href="home.html" >Home</a></li>
+               <li><a href="places.html">Browse Places</a></li>
+               <li><a href="todo.html" class="active">To-Do List</a></li>
+               <li><a href="contact.html">Contact us</a></li>
+               <li><a href="about.html">About us</a></li>
+            </ul>
+         </nav>
+         <div class="clearfix"></div>
+      </header>
+
+      <section class="showcase" id="home">
+        <video src="img\todo.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+
+         <div class="text">
+            <h2>To-Do list</h2>
+            <p>Browse Amazing Places in Sri Lanka...<br><br>
+              Add some Places you Like to visit Here...
+              <br><br>Make your Tour Amazing</p>
+
+            <a href="places.html">Browse Places</a>
+         </div>
+
+
+         <div id="app" class="container">
+       <h1>Add Some Places</h1>
+
+       <div v-if="!isEditing">
+           <input type="text" v-model="todo">
+           <input class="button" type="submit" value="Add" @click="storeTodo">
+       </div>
+       <div v-else>
+           <input type="text" v-model="todo">
+           <input type="submit" value="Update" @click="updateTodo">
+       </div>
+       <br><br><br>
+       <ol>
+           <li v-for="(todo, index) in todos">
+               {{ todo }}
+               <button @click="editTodo(index, todo)">Edit</button>
+               <button @click="removeTodo(index)">Delete</button>
+           </li>
+       </ol>
+   </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src=vue.js></script>
+ </section>
+ <script>
+    $(document).ready(function () {
+      $('.menu-toggle').click(function() {
+        $('.menu-toggle').toggleClass('active')
+          $('nav').toggleClass('active')
+      })
+    })
+ </script>
+</body>
+</html>
