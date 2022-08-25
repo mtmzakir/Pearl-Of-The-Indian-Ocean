@@ -86,4 +86,4 @@ https://drive.google.com/drive/folders/16mdAzyPQtDAqHPqTJbgEPDyMA2JMoOap?usp=sha
 <p align="justify">The purpose and objective of Pearl of the Indian Ocean project is achieved. By providing extremely rich graphical user interface, web page designing is easy and in an aesthetic form. Flexibility in designing makes user explore their imagination and thus, even a novice user can dream and accomplish their wish of web page designing.</p>
 
 
-### Credits to M.T.M. Zakir
+<h1 align="center">Credits to M.T.M. Zakir</h1>
