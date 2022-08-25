@@ -36,7 +36,7 @@
 <p align="justify"> Minimum number of computers is at least 2 which will limit the development process if they are not available. Since Atom Code Editor provides rich web-based interactions, resolution of screen and graphics aspects of hardware are extremely important. Installations of Atom, Microsoft visual studio code are essentials which enable the developer to develop their application.</p>
   
 ### Solution Approach
-<p align="justify">I had a workshop at the final time in Vue Js. That workshop was so helpful to complete our mini project. So, I again watched the recorded video and I learned more.
+I had a workshop at the final time in Vue Js. That workshop was so helpful to complete our mini project. So, I again watched the recorded video and I learned more.
 - W3Schools, YouTube, Google resources are very useful thing when I got problems. it’s a good
 solution provider also.
 - I have looked through some of the YouTube videos on how to make a webpage. Those YouTube videos helped me complete this mini project.
@@ -44,34 +44,35 @@ solution provider also.
 - And finally, I was created To-Do list with VueJs Framework.
   
 ### Architectural diagram of the system
+![architecture-diagram](https://user-images.githubusercontent.com/90142607/186636376-15c939fa-7fdc-4956-9451-25f952512b88.png)
   
 ### Site Map
-  
+  ![SiteMap](https://user-images.githubusercontent.com/90142607/186636417-f48e30ea-110b-445f-88b4-bf2a7b60c6a9.jpg)
+
 ### Used Web Technologies and examples
-I have used only front-end web technologies like,
-▪ HTML
-▪ CSS
-▪ VueJS Framework
-▪ JavaScript
-▪ JQuery
-▪ CDN for JavaScript, VueJS, CSS
-▪ Google Chrome Browser
-▪ Atom Code Editor
-▪ Microsoft Visual Studio Code
-▪ Video Editing Softwares
-Test Results
-Home Page:
-Browse Places Page:
-Browse Places Page (Scrolled):
-To-Do List App(with VueJS):
-Contact Us Page :
-About Us Page :
-About Us Page (Scrolled):
+  I have used only front-end web technologies like,
+    ▪ HTML                        ▪ CSS                 ▪ VueJS Framework
+    ▪ JavaScript                  ▪ JQuery              ▪ CDN for JavaScript, VueJS, CSS
+    ▪ Google Chrome Browser       ▪ Atom Code Editor    ▪ Microsoft Visual Studio Code
+    ▪ Video Editing Softwares
+  
+### Test Results
+Home Page:![Screenshot 2022-01-14 044519](https://user-images.githubusercontent.com/90142607/186636537-a3fb0c7e-9c22-42f3-8396-45cb0372ee93.png)
+
+Browse Places Page:![Screenshot 2022-01-14 044544](https://user-images.githubusercontent.com/90142607/186636619-ce32aea3-481f-417c-8106-b123c91d1f10.png)
+
+Browse Places Page (Scrolled):![Screenshot 2022-01-14 044557](https://user-images.githubusercontent.com/90142607/186636636-80780beb-ccdb-45cf-9efa-aa5c4e3b7309.png)
+
+To-Do List App(with VueJS):![Screenshot 2022-01-14 044640](https://user-images.githubusercontent.com/90142607/186636670-3c47756d-1789-458c-9d50-1b000c724f43.png)
+
+Contact Us Page :![Screenshot 2022-01-14 044702](https://user-images.githubusercontent.com/90142607/186636688-92971806-a40d-4e94-887a-3cf2f74f5b0c.png)
+
+About Us Page :![Screenshot 2022-01-14 044740](https://user-images.githubusercontent.com/90142607/186636706-75c0a257-63a8-4748-88db-26cd55366f87.png)
+
+About Us Page (Scrolled):![Screenshot 2022-01-14 044758](https://user-images.githubusercontent.com/90142607/186636749-034e3787-9ad1-4789-92f0-8f7919a860dc.png)
+
 I have also attached Demo Testing Video inside the Drive Folder which is
-https://drive.google.com/drive/folders/16mdAzyPQtDAqHPqTJbgEPDyMA2JMoOap?usp=s
-haring
-Conclusion
-The purpose and objective of Pearl of the Indian Ocean project is achieved. By providing 
-extremely rich graphical user interface, web page designing is easy and in an aesthetic form. 
-Flexibility in designing makes user explore their imagination and thus, even a novice user can 
-dream and accomplish their wish of web page designing
+https://drive.google.com/drive/folders/16mdAzyPQtDAqHPqTJbgEPDyMA2JMoOap?usp=sharing
+
+### Conclusion
+<p align="justify">The purpose and objective of Pearl of the Indian Ocean project is achieved. By providing extremely rich graphical user interface, web page designing is easy and in an aesthetic form. Flexibility in designing makes user explore their imagination and thus, even a novice user can dream and accomplish their wish of web page designing.</p>
