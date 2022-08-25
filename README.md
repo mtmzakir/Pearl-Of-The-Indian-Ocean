@@ -46,10 +46,10 @@ solution provider also.
 - And finally, I was created To-Do list with VueJs Framework.
   
 ### Architectural diagram of the system
-![architecture-diagram](https://user-images.githubusercontent.com/90142607/186636376-15c939fa-7fdc-4956-9451-25f952512b88.png)
-  
+<img src="https://user-images.githubusercontent.com/90142607/186638458-1962dbd2-aa55-48ba-90b0-b252bc9dedb5.png" align="center"/>
+
 ### Site Map
-  ![SiteMap](https://user-images.githubusercontent.com/90142607/186636417-f48e30ea-110b-445f-88b4-bf2a7b60c6a9.jpg)
+ <img src="https://user-images.githubusercontent.com/90142607/186638475-b77f3633-f163-4c9e-b2b3-b09d9b072f93.jpg" align="center"/>
 
 ### Used Web Technologies and examples
   I have used only front-end web technologies like,
