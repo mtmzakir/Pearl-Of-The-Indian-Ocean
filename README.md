@@ -22,15 +22,17 @@ information, queries, To-Do List and Contact Us.<p>
 
   
 ### This Documentation Includes
-1. Frontpage (with your basic details)
-2. Problem(s) – sub-problems, constraints
-3. Solution Approach - How you plan to solve the identified sub-problems
-4. Architectural diagram of the system
-5. Site Map
-6. Used web technologies and examples
-7. Test Results (test cases with screenshots and descriptions)
-8. Conclusion
-Description 
+  1. Frontpage (with your basic details)
+  2. Problem(s) – sub-problems, constraints
+  3. Solution Approach - How you plan to solve the identified sub-problems
+  4. Architectural diagram of the system
+  5. Site Map
+  6. Used web technologies and examples
+  7. Test Results (test cases with screenshots and descriptions)
+  8. Conclusion
+  
+  
+### Description 
 My webpage is for tourists who visits Sri Lanka. This webpage provides the best places in a 
 particular Provinces in Sri Lanka. I have also included HTML, CSS, Java script and Vue Js to 
 make this website. Clients can also note the places they wish to visit in the upcoming days. 
@@ -42,7 +44,8 @@ end of each page to beautify web page. know more about those best places. I have
 a Query using Java script which can be useful for the tourists to ask any help and send feedback. 
 About Us and Contact Us gives the information about the website and a way to contact them 
 respectively.
-Problems 
+  
+### Problems 
 In case I was faced many problems. I have not learned about Vue Js at the time the mini project 
 was given. It was hard to study Vue Js in that short time and complete the website. We have 
 been given a Vue Js tutorial link in our LMS page, but it was hard to understand that tutorial 
