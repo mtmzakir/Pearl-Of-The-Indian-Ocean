@@ -1,4 +1,6 @@
-### Indroduction to Documentation
+<h1 align="center">Pearl Of The Indian Ocean <br> Tourist Website Responsive</h1>
+
+### Indroduction 
 <p align="justify"> Create a website that displays Tourist information about Sri Lanka. This must contain all the well- known tourist places. It can be named “Pearl of the Indian Ocean” and it should contain an appropriate theme. Users could be able to browse Province/District wise information as well; it would be appreciated if you add other details like general information of SL and contact details of the service providers, etc.</p>
   
 <p align="justify">The page should contain at least 5 distinct web pages, should have a captivating look, and be interactive. Some suggestions for pages are Home, about us, separate pages for tourist information, queries, To-Do List and Contact Us.<p>
